@@ -26,11 +26,12 @@
                     <navigationItem key="navigationItem" title="Projects" id="s9I-YZ-e41"/>
                     <connections>
                         <segue destination="agh-ms-bEh" kind="show" identifier="showProDigiScreen" id="eqB-q2-mBa"/>
+                        <segue destination="IwR-1z-K3c" kind="show" identifier="showGuilherme" id="ije-kw-gZm"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oXb-zb-V29" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="703" y="-268"/>
+            <point key="canvasLocation" x="398" y="-268"/>
         </scene>
         <!--Example-->
         <scene sceneID="2h9-fZ-2qQ">
@@ -61,7 +62,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZT-Hg-WyF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919.2" y="-743.47826086956525"/>
+            <point key="canvasLocation" x="719" y="502"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eRa-Fy-dtA">
+            <objects>
+                <viewController id="IwR-1z-K3c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k0o-N0-Mxl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBB-XD-WwN">
+                                <rect key="frame" x="168" y="323" width="39" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gm2-ic-hYt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qCN-g8-P0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="502"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xN2-Ry-zgi">
